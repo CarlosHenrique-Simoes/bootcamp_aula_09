@@ -1,0 +1,18 @@
+capitais = {
+    "França": "Paris",
+    "Alemanha": "Berlin",
+}
+
+diario_de_viagem = {
+    "França": {
+        "cidades_visitadas": ["Paris", "Lille", "Dijon"],
+        "visitas_totais": 8,
+        },
+    "Alemanha": {
+        "cidades_visitadas": ["Berlin", "Munich", "Frankfurt"],
+        "visitas_totais": 5,
+        },
+}
+
+print(diario_de_viagem["França"]["cidades_visitadas"][2])
+print(diario_de_viagem["Alemanha"][2])
